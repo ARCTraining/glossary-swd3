@@ -1,0 +1,23 @@
+entries:
+  - term: "Dependency management"
+    definition: "Organising or managing the different software that *your* software or code depends on, for example in R or Python, all the versions of different libraries and packages you need to run your code."
+    tags: ["programming", "dependencies"]
+    links:
+      - title: "Dependency management documentation, Aire docs"
+        url: "https://arcdocs.leeds.ac.uk/aire/usage/dependency_management.html"
+    
+  - term: "Version control system [VCS]"
+    definition: "A version control system [VCS] tracks work and changes to files/folders, often attaching the name of the user responsible for the changes. Popular VCSs include git and SVN."
+    tags: ["git", "version control", SVN]
+    links:
+      - title: "Wiki page on version control"
+        url: "https://en.wikipedia.org/wiki/Version_control"
+
+  - term: "git"
+    definition: "A version control system [VCS] to track work and changes to folders or 'repositories'; it creates 'snapshots' of all files in a project with a timestamp and label."
+    tags: ["git", "version control"]
+    links:
+      - title: "Git homepage"
+        url: "https://git-scm.com/"
+      - title: "'What is Git? Our beginner’s guide to version control', GitHub blog"
+        url: "https://github.blog/developer-skills/programming-languages-and-frameworks/what-is-git-our-beginners-guide-to-version-control/"
