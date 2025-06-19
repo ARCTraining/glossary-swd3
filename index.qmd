@@ -40,6 +40,8 @@ df <- do.call(rbind, lapply(entries, function(x) {
 This glossary contains technical terms and definitions related to research software development. Use the search box below to find specific terms.
 
 ```{r glossary-table, echo=FALSE}
+#| column: page-inset-right
+
 # Create the interactive table
 DT::datatable(
   df,
@@ -51,9 +53,9 @@ DT::datatable(
     dom = 'Bfrtip',
     buttons = c('copy', 'csv', 'excel'),
     columnDefs = list(
-      list(width = '20%', targets = 0),  # Term column
-      list(width = '45%', targets = 1),  # Definition column
-      list(width = '20%', targets = 2),  # Tags column
+      list(width = '15%', targets = 0),  # Term column
+      list(width = '15%', targets = 1),  # Definition column
+      list(width = '55%', targets = 2),  # Tags column
       list(width = '15%', targets = 3)   # Links column
     )
   ),
