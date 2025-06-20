@@ -5,10 +5,24 @@ entries:
     links:
       - title: "Dependency management documentation, Aire docs"
         url: "https://arcdocs.leeds.ac.uk/aire/usage/dependency_management.html"
+        
+  - term: "Directory"
+    definition: "Another word for 'folder', specifically used on Linux machines."
+    tags: ["linux"]
+    links:
+      - title: "The Linux Directory Structure, Explained"
+        url: "https://www.howtogeek.com/117435/htg-explains-the-linux-directory-structure-explained/"
+
+  - term: "Repository"
+    definition: "Another word for 'folder' or 'directory', specifically used for folders with version control active, e.g. 'a git repository'."
+    tags: ["linux", "version control"]
+    links:
+      - title: "Repository (version control) - Wikipedia page"
+        url: "https://en.wikipedia.org/wiki/Repository_(version_control)"
     
   - term: "Version control system [VCS]"
     definition: "A version control system [VCS] tracks work and changes to files/folders, often attaching the name of the user responsible for the changes. Popular VCSs include git and SVN."
-    tags: ["git", "version control", SVN]
+    tags: ["git", "version control", "SVN"]
     links:
       - title: "Wiki page on version control"
         url: "https://en.wikipedia.org/wiki/Version_control"
